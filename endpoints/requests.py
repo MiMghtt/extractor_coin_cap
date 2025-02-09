@@ -60,3 +60,4 @@ def get_conversion_rates():
     endpoint = "rates"
     return get_data(endpoint)
 
+
