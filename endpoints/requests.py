@@ -59,4 +59,3 @@ def get_asset_history(asset_id, interval="d1", limit=500):
 def get_conversion_rates():
     endpoint = "rates"
     return get_data(endpoint)
-
