@@ -61,6 +61,7 @@ ORDER BY
 ```
 
 ### 2. **Script de Tratamento da Tabela de Conversão**
+
 ```
 CREATE OR REPLACE TABLE `stoked-aloe-450217-a2.tratados.conversao_tratados` AS
 SELECT
@@ -80,6 +81,7 @@ ORDER BY
   symbol;
 ```
 ### 3. **Script de Tratamento da Tabela de Historicos**
+
 ```
 CREATE OR REPLACE TABLE `stoked-aloe-450217-a2.tratados.historico_tratados` AS
 WITH raw_data AS (
@@ -109,8 +111,8 @@ ORDER BY
 ## Visualizações no Power BI
 As visualizações dos dados foram criadas através de um dashboard no Power BI, que oferece uma visão interativa e gráfica dos dados processados, facilitando a análise de informações como preços, volumes de negociação e capitalização de mercado.
 
-![image](https://github.com/user-attachments/assets/5fc3a111-4ed3-492c-a2f3-10ce515a2f2c)
-(Acesse o arquivo desse BI nesse link: https://drive.google.com/file/d/1DF0OOvTK8K2DDpQr0hA8YfURozDYTs0R/view?usp=sharing)
+![image](https://github.com/user-attachments/assets/0bff88df-f317-48d1-9c66-57340fd4063e)
+(Acesse o arquivo desse BI nesse link: (https://app.powerbi.com/reportEmbed?reportId=3578da06-60b5-4665-bd29-cf8efb289204&autoAuth=true&ctid=d55f6b89-e844-4c2b-b069-ef293ba546ff))
 
 ## Tecnologias Utilizadas
 - Python: Para a extração e manipulação dos dados.
